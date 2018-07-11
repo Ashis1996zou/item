@@ -1,0 +1,302 @@
+#topnav-wrap{
+	height: 30px;
+	background: #f3f3f5;
+	border-bottom: 1px solid #e3e3e5;
+}
+.topnav{
+	width: 986px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+}
+.store{
+	float: left;
+	width: 98px;
+	height: 30px;
+	line-height: 30px;
+	border-left: 1px solid #e3e3e5;
+	border-right: 1px solid #e3e3e5;
+	text-align: center;
+	font-size: 13px;
+}
+.phonebuy{
+	float: left;
+	width: 98px;
+	height: 30px;
+	line-height: 30px;
+	border-right: 1px solid #e3e3e5;
+	text-align: center;
+	font-size: 13px;
+}
+.phonebuy{
+	position: relative;
+	top: -1px;
+}
+.phonebuy i:nth-of-type(1){
+	position: relative;
+	top: 1px;
+}
+.myself{
+	float: right;
+}
+.myself .possess{
+	margin-right: 112px;
+}
+.myself .possess a{
+	color: #e60012;
+}
+.myself div{
+	float: left;
+	margin-left: 20px;
+}
+.myself div a{
+	color: #666;
+}
+.myself .mybuy{
+	margin-left: 0;
+}
+.myself .mybuy span{
+	display: inline-block;
+	width: 1px;
+	height: 14px;
+	background: #666;
+}
+.myself .mybuy a{
+	padding-left: 20px;
+	position: relative;
+	top: -1px;
+}
+#header-wrap{
+	height: 68px;
+	background: #fff;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.head{
+	width: 986px;
+	height: 68px;
+	margin: 0 auto;
+}
+.head h1{
+	width: 151px;
+	height: 32px;
+}
+.head h1 a{
+	display: block;
+	float: left;
+	width: 151px;
+	height: 32px;
+	text-indent: -999px;
+	background: url(../images/登录_files/signin-register-logo.png) no-repeat;	
+	margin-top: 18px;
+}
+.head span{
+	float: left;
+	width: 1px;
+	height: 42px;
+	background: #e6e6e6;
+	margin: 0 30px;
+	position: relative;
+	bottom: 18px;
+}
+.head h2{
+	float: left;
+	position: relative;
+	bottom: 10px;
+	font-size: 18px;
+	color: #666;
+}
+#main-wrap{
+	position: relative;
+	height: 552px;
+}
+#main-wrap>a{
+	display: block;
+	text-indent: -999px;
+	background: url(../images/background.jpg) no-repeat;
+	width: 100%;
+	height: 552px;
+}
+#main-wrap .register{
+	width: 378px;
+	height: 530px;
+	background: #fff;
+	position: absolute;
+	top: 10px;
+	right: 190px;
+	overflow: hidden;
+}
+.register .choose{
+	width: 348px;
+	height: 40px;
+	border-bottom: 1px solid #f3f3f3;
+	margin-left: 15px;
+	margin-top: 24px;
+}
+.register .choose>a:nth-of-type(1){
+	display: inline-block;
+	width: 123px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #F3F3F3;
+	color: #333;
+	margin-left: 53px;
+	margin-right: 2px;
+}
+.register .choose>a:nth-of-type(2){
+	display: inline-block;
+	width: 123px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #333;
+	color: #fff;
+}
+.write .mobile{
+	width: 311px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #e3e2e2;
+	text-align: left;
+	margin-left: 33px;
+	margin-top: 30px;
+}
+.mobile label{
+	margin-left: 10px;
+}
+.mobile label .iconfont{
+	margin-left: 15px;
+	color: #999;
+}
+.mobile input[type="text"]{
+	border: none;
+}
+.write .authcode{
+	width: 311px;
+	height: 36px;
+	line-height: 36px;
+	text-align: left;
+	margin-left: 33px;
+	margin-top: 30px;
+	position: relative;
+}
+.authcode label{
+	position: absolute;
+	left: 10px;
+}
+.authcode input[type="text"]{
+	width: 198px;
+	height: 36px;
+	border: 1px solid #e3e2e2;
+}
+.write .messagescode{
+	width: 311px;
+	height: 36px;
+	line-height: 36px;
+	text-align: left;
+	margin-left: 33px;
+	margin-top: 30px;
+	position: relative;
+}
+.messagescode label{
+	position: absolute;
+	left: 10px;	
+}
+.messagescode input[type="text"]{
+	width: 233px;
+	height: 36px;
+	border: 1px solid #e3e2e2;
+}
+.messagescode a{
+	display: inline-block;
+	width: 73px;
+	height: 38px;
+	background: #323232;
+	color: #fff;
+	float: right;
+	text-align: center;
+}
+.write .passcode{
+	width: 311px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #e3e2e2;
+	text-align: left;
+	margin-left: 33px;
+	margin-top: 30px;
+}
+.passcode label{
+	margin-left: 10px;
+	margin-right: 40px;
+}
+.passcode input[type="text"]{
+	width: 220px;
+	border: none;
+}
+::-webkit-input-placeholder{
+	font-size: 12px;
+}
+.write .verifycode{
+	width: 311px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #e3e2e2;
+	text-align: left;
+	margin-left: 33px;
+	margin-top: 30px;
+}
+.verifycode label{
+	margin-left: 10px;
+	margin-right: 30px;
+}
+.verifycode input[type="text"]{
+	border: none;
+}
+.write .consent{
+	margin-left: 83px;
+	margin-top: 30px;
+}
+.write .consent input[type="checkbox"]{
+	position: relative;
+	top: 2px;
+}
+.write .consent span a{
+	color: red;
+}
+.write .signin{
+	width: 311px;
+	height: 36px;
+	line-height: 36px;
+	text-align: left;
+	margin-left: 33px;
+	margin-top: 8px;
+}
+.signin input[type="button"]{
+	width: 312px;
+	height: 40px;
+	background: #e1373a;
+	color: #fff;
+	border: none;
+	font-size: 16px;
+}
+#foot-wrap{
+	height: 20px;
+	background: #fff;
+	overflow: hidden;
+}
+#foot-wrap p{
+	text-align: center;
+	line-height: 20px;
+	color: #b1aabc;
+}
+
+
+
+
+
+
+
+
+
+

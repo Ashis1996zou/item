@@ -1,0 +1,161 @@
+#main-wrap{
+	background: #fff;
+}
+.main>p{
+	height: 50px;
+	line-height: 50px;
+	color: #666;
+}
+.main>p a{
+	color: #666;
+	margin-right: 3px;
+}
+.main .false{
+	width: 1190px;
+	height: 144px;
+	border: 1px solid #CCCCCC;
+	border-bottom: none;
+}
+.main .false li{
+	width: 1190px;
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 1px dotted #ccc;
+}
+.main .false li>a:nth-of-type(1){
+	display: inline-block;
+	width: 98px;
+	height: 35px;
+	line-height: 35px;
+	background: #f6f6f6;
+	text-align: center;	
+	padding-left: 0;
+}
+.main .false li>a{
+	display: inline-block;
+	width: 120px;
+	text-align: left;
+	padding-left: 30px;
+}
+.main .false li>span{
+	float: right;
+	display: block;
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	background: #f4f4f4;
+	text-align: center;
+	margin-right: 63px;
+	margin-top: 6px;
+}
+.main .tuijian{
+	width: 1163px;
+	height: 34px;
+	line-height: 34px;
+	border: 1px solid #ccc;
+	background: #f5f5f5;
+	margin-top: 10px;
+	padding-left: 25px;
+}
+.main .tuijian a{
+	display: inline-block;
+	width: 50px;
+	height: 23px;
+	line-height: 23px;
+	background: #ddd;
+	margin-right: 8px;
+	text-align: center;
+}
+.main .tuijian a:hover{
+	background: red;
+}
+.main .tuijian input[type="text"]{
+	width: 37px;
+	height: 21px;
+	border: 1px solid #ccc;
+}
+.main .tuijian input[type="checkbox"]{
+	margin-left: 21px;
+	position: relative;
+	top: 2px;
+}
+
+
+#list{
+	height: 1000px;
+	margin-top: 15px;
+}
+#list li{
+	float: left;
+	width: 232px;
+	height: 328px;
+	margin-right: 5px;
+}
+#list li:nth-of-type(5n){
+	margin-right: 0;
+}
+#list li .look{
+	width: 232px;
+	height: 255px;
+}
+#list li .look a:nth-of-type(1){
+	display: block;
+	width: 230px;
+	height: 240px;
+	border: 1px solid #ccc;
+	border-bottom: none;
+}
+#list li .look a:nth-of-type(1) img{
+	width: 230px;
+	height: 240px;
+}
+#list li .look a:nth-of-type(2){
+	display: block;
+	width: 222px;
+	height: 16px;
+	line-height: 16px;
+	padding-left: 10px;
+	background: #f0a1a1;
+	color: #fff;
+}
+#list li .write{
+	width: 232px;
+	height: 73px;
+}
+#list li .write span{
+	display: block;
+	height: 43px;
+}
+#list li .write span a{
+	display: block;
+	line-height: 20px;
+}
+#list li .write p{
+
+}
+#list li .write p b{
+	color: #ff5000;
+	font-size: 16px;
+	font-weight: 900;
+}
+#list li .write p em{
+	color: #aaa;
+	position: relative;
+	left: 5px;
+	bottom: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

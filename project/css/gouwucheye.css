@@ -1,0 +1,338 @@
+.content{
+	width: 990px;
+	margin: 0 auto;
+}
+#topnav-wrap{
+	height: 26px;
+	background: #f1f1f1;
+	line-height: 26px;
+}
+.topnav{
+	height: 26px;
+}
+.topnav .left{
+	float: left;
+	
+}
+.topnav .left>a{
+	margin-right: 4px;
+}
+.topnav .left>span:nth-of-type(1){
+	display: inline-block;
+	width: 1px;
+	height: 14px;
+	background: #aaa;
+	position: relative;
+	top: 2px;
+}
+.topnav .centre{
+	float: right;
+	margin-right: 8px;
+}
+.topnav .centre>a{
+	color: #e60012;
+	margin-left: 13px;
+	text-decoration: none;
+}
+.topnav .right{
+	float: right;
+	position: relative;
+	bottom: 1px;
+}
+.topnav .right>strong{
+	display: inline-block;
+	width: 1px;
+	height: 14px;
+	background: #aaa;
+	position: relative;
+	top: 2px;
+}
+#header-wrap{
+	height: 85px;
+}
+.head{
+	height: 85px;
+	overflow: hidden;
+}
+.head h1{
+	float: left;
+	margin-top: 22px;
+	width: 355px;
+	height: 37px;
+}
+.head h1>a{
+	float: left;
+	width: 355px;
+	height: 37px;
+}
+.head .progress{
+	float: right;
+}
+.head .progress ul{
+	margin-top: 35px;
+}
+.head .progress ul li{
+	float: left;
+	width: 190px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background: #e8e8e8;
+	margin-right: 10px;
+	position: relative;
+}
+.head .progress ul li:nth-of-type(1){
+	float: left;
+	width: 190px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background: #f90;
+	margin-right: 10px;
+	position: relative;
+}
+.progress ul li em{
+	width: 0;
+	height: 0;
+	line-height: 0;	
+	position: absolute;
+	right: -9px;
+	top: 0;
+	border-top: 10px solid transparent;
+	border-left: 10px solid #e8e8e8;
+	border-bottom: 10px solid transparent;
+}
+.progress ul li:nth-of-type(1) em{
+	width: 0;
+	height: 0;
+	line-height: 0;	
+	position: absolute;
+	right: -9px;
+	top: 0;
+	border-top: 10px solid transparent;
+	border-left: 10px solid #f90;
+	border-bottom: 10px solid transparent;
+}
+/*.progress ul li.sma em{
+	border-color: transparent transparent transparent #f90;
+}*/
+#details{
+	min-height: 300px;
+}
+.detail{
+	width: 990px;
+	border: 1px solid #ccc;	
+}
+.delicious{
+	/*height: 414px;*/
+}
+.delicious table{
+	width: 990px;
+	/*height: 354px;*/
+}
+.delicious table>thead{
+	width: 988px;
+	height: 42px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #ccc;
+}
+.delicious table thead tr>th{
+	width: 110px;
+	height: 42px;
+}
+.delicious table thead tr th:nth-of-type(1){
+	width: 58px;
+	height: 42px;
+}
+.delicious table thead th:nth-of-type(2){
+	width: 369px;
+	height: 42px;
+}
+.delicious table thead th:nth-of-type(7){
+	width: 120px;
+	height: 42px;
+}
+
+/*tbody在这*/
+.delicious table>tbody{
+	width: 988px;
+}
+.delicious table tbody>tr{
+	/*height: 354px;*/
+	width: 990px;	
+}
+.delicious table tbody td>td{
+	/*width: 990px;*/
+	padding: 0;
+}
+.delicious table tbody td>.package{
+	width: 988px;
+	height: 72px;
+	line-height: 72px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px dashed #ccc;
+}
+/*.delicious table tbody .package dl{
+	height: 102px;
+}*/
+.delicious table tbody .package dt{
+	float: left;
+}
+.delicious table tbody .package dd{
+	float: left;
+	height: 42px;
+	line-height: 21px;
+	margin-top: 20px;
+}
+.delicious table tbody .package dd a{
+	
+}
+.delicious table tbody .package dd div{
+	height: 20px;
+}
+.delicious table tbody .package dd p{
+	height: 18px;
+}
+.delicious table tbody .package dd:nth-of-type(1){
+	margin-left: 8px;
+	margin-top: 30px;
+}
+.delicious table tbody .package dt{
+	margin-left: 8px;
+	margin-top: 3px;
+}
+.delicious table tbody .package dd:nth-of-type(2){
+	width: 250px;
+	margin-left: 56px;
+	margin-top: 18px;
+}
+.delicious table tbody .package dd:nth-of-type(3){
+	margin-left: 50px;
+	margin-top: 18px;
+}
+.delicious table tbody .package dd:nth-of-type(4){
+	margin-left: 78px;
+	margin-top: 18px;
+}
+.delicious table tbody .package dd:nth-of-type(5){
+	margin-left: 46px;
+	margin-top: 18px;
+}
+.delicious table tbody .package dd:nth-of-type(5)>a{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	line-height: 22px;
+	border: 1px solid #ccc;
+	text-align: center;
+	float: left;
+}
+.delicious table tbody .package dd:nth-of-type(5)>input{
+	width: 22px;
+	height: 20px;
+	float: left;
+	text-align: center;
+}
+.delicious table tbody .package dd:nth-of-type(6){
+	margin-left: 76px;
+	margin-top: 18px;
+}
+.delicious table tbody .package dd:nth-of-type(6) strong{
+	color: red;
+}
+.delicious table tbody .package dd:nth-of-type(7){
+	margin-left: 78px;
+	margin-top: 18px;
+}
+
+
+/*tbody结束*/
+.delicious ul{
+	height: 60px;
+	padding-left: 13px;
+}
+.delicious ul li{
+	float: left;
+	margin-right: 38px;
+	margin-top: 16px;
+}
+.delicious ul li input{
+	position: relative;
+	top: 3px;
+}
+.result{
+	height: 54px;
+	background: #eee;
+}
+.result>a{
+	float: left;
+	width: 123px;
+	height: 39px;
+	line-height: 39px;
+	border: 1px solid #ffdd98;
+	background: #fdf8f1;
+	text-align: center;
+	border-radius: 2px;
+	margin-top: 6px;
+	margin-left: 36px;
+}
+.result .clearcar{
+	float: left;
+	margin-top: 19px;
+	margin-left: 36px;
+}
+.result .clearcar a{
+	color: #3366cc;
+}
+.result .howmuch{
+	float: right;
+}
+.result .howmuch strong{
+	font-weight: 900;
+}
+.result .howmuch strong:nth-of-type(2){
+	color: #a9a9a9;
+	font-size: 18px;
+}
+.result .howmuch strong:nth-of-type(3){
+	color: #e60012;
+	font-size: 20px;
+}
+.result .howmuch a{
+	display: inline-block;
+	width: 129px;
+	height: 54px;
+	line-height: 54px;
+	background: #ff5000;
+	color: #fff;
+	text-align: center;
+	margin-left: 54px;
+}
+#relieved{
+	height: 70px;
+}
+#relieved .relie{
+	margin-top: 20px;
+}
+#relieved p{
+	text-align: right;
+	color: #a9a9a9;
+	line-height: 24px;
+}
+#relieved p a{
+	text-align: right;
+	color: #a9a9a9;
+}
+#footer-wrap{
+	margin-top: 10px;
+	height: 40px;
+}
+.footer{
+	height: 40px;
+	border-top: 1px solid #ccc;
+}
+.footer>p{
+	line-height: 40px;
+	text-align: center;
+}

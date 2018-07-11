@@ -1,0 +1,416 @@
+#main-wrap{
+	background: #fff;
+}
+.main .p{
+	height: 28px;
+	line-height: 28px;
+	color: #666;
+}
+.main .p>a{
+	color: #3366cc;
+}
+.moreinformation{
+	width: 1190px;
+	height: 600px;
+}
+/*.moreinformation>div{
+	float: left;
+}*/
+.moreinformation .glass{
+	position: relative;
+	width: 480px;
+	height: 600px;
+	float: left;
+}
+.glass .seeshow{
+	height: 480px;
+	width: 480px;
+	border: 1px solid #ccc;
+}
+.glass .seeshow:hover{
+	cursor: pointer;
+}
+.seeshow .middle{
+	height: 480px;
+	width: 480px;
+
+}
+.seeshow .filter{
+	width: 240px;
+	height: 240px;
+	position: absolute;
+	background: #000;
+	opacity: 0.5;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.seeshow>a{
+	display: block;
+	width: 96px;
+	height: 18px;
+	line-height: 18px;
+	background: #fff;
+	text-align: right;
+	padding-right: 8px;
+	position: absolute;
+	bottom: 119px;
+	right: -1px;
+	color: #aaa;
+	z-index: 1;
+}
+.magnify{
+	position: absolute;
+	left:510px;
+	top:0;
+	overflow: hidden;
+	width:480px;
+	height: 480px;
+	border: 1px solid #000;
+	display: none;
+	z-index: 5;
+}
+.magnify .maximg{
+	width:960px;
+	height: 960px;
+	position: absolute;
+}
+.glass .select{
+	padding-top: 11px;
+}
+.glass .select .small{
+	margin-right:4px;
+	border: 1px solid #ddd;
+}
+.glass .select .small:nth-last-of-type(1){
+	margin-right: 0;
+}
+.glass .select .small:hover{
+	border-color: red;
+}
+.information{
+	width: 478px;
+	height: 33px;
+	line-height: 33px;
+}
+.information span{
+	float: left;
+	color: #ccc;
+}
+.information>a{
+	float: right;
+	margin-left: 22px;
+	color: #000;
+}
+
+
+.missbuy{
+	float: left;
+	width: 490px;
+	height: 600px;
+	margin-left: 20px;
+	/*overflow: hidden;*/
+}
+.missbuy>span{
+	font-size: 16px;
+	line-height: 28px;
+	color: #666;
+	font-weight: 900;
+}
+.missbuy>a{
+	color: #0000FF;
+	text-decoration: underline;
+	display: block;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.missbuy .price{
+	font-size: 32px;
+	color: red;
+	font-weight: 900;
+	margin: 20px 0 30px 0;
+}
+.missbuy .price>span{
+	color: #aaa;
+	text-decoration: line-through;
+	margin: 0 8px;
+	font-weight: normal;
+	font-size: 12px;
+}
+.missbuy .limit{
+	margin-bottom: 20px;
+}
+.missbuy .limit>span{
+	background: red;
+	color: #fff;
+	display: inline-block;
+	width: 60px;
+	height: 18px;
+	line-height: 18px;
+	text-align: right;
+	margin: 0 8px;
+}
+.missbuy .appraise{
+	
+}
+.missbuy .appraise>span i{
+	margin-right: 8px;
+}
+.missbuy .appraise>span em{
+	color: red;
+}
+.missbuy .appraise>span>a{
+	color: #0000FF;
+}
+.missbuy .appraise>a{
+	float: right;
+}
+.missbuy .claim{
+	width: 490px;
+	height: 265px;
+	background: #f8f8f8;
+	padding: 22px 0 0 10px;
+	margin-top: 5px;
+	position: relative;
+}
+.missbuy .claim .tinct{
+	
+}
+.missbuy .claim .tinct>span{
+	float: left;
+}
+.missbuy .claim .tinct>a{
+	margin: 0 5px;
+	display: inline-block;
+	border: 1px solid #ccc;
+}
+.missbuy .claim .tinct>a:hover{
+	border-color: red;
+}
+.missbuy .claim .taglia{
+	width: 320px;
+	height: 60px;
+	margin-top: 10px;
+}
+.missbuy .claim .taglia>span:nth-of-type(1){
+	float: left;
+	margin-right: 5px;
+	height: 60px;
+}
+.missbuy .claim .taglia>span:nth-of-type(2){
+	display: block;
+}
+.missbuy .claim .taglia a{
+	display: inline-block;
+	width: 24px;
+	height: 18px;
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 0 4px;
+	margin: 0 10px 10px 0;
+}
+.missbuy .claim .taglia a:hover{
+	border-color: red;
+}
+.missbuy .claim .ruler{
+	width: 320px;
+	text-align: right;
+	margin: 12px 0;
+}
+.missbuy .amount{
+	
+}
+.missbuy .amount input[type="text"]{
+	width: 27px;
+	height: 19px;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin: 3px 2px 0;
+}
+.missbuy .amount .sub{
+	width: 11px;
+	height: 11px;
+	border: 1px solid #ccc;
+	line-height: 11px;
+	margin-left: 3px;
+	margin-top: 7px;
+}
+.missbuy .amount .add{
+	width: 11px;
+	height: 11px;
+	border: 1px solid #ccc;
+	line-height: 11px;
+	margin-right: 3px;
+	margin-top: 7px;
+}
+.missbuy .amount>span{
+	font-weight: 900;
+	color: red;
+}
+.missbuy .affiliate{
+	position: absolute;
+	left: 12px;
+	bottom: 12px;
+}
+.missbuy .affiliate>a{
+	display: inline-block;
+	width: 121px;
+	height: 33px;
+	line-height: 35px;
+	text-align: center;
+	color: red;
+	border: 1px solid red;
+	float: left;
+	margin-right: 8px;
+	/*position: absolute;
+	left: 10px;
+	bottom: 10px;*/
+}
+.missbuy .affiliate button{
+	display: inline-block;
+	width: 147px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: #fff;
+	background: red;
+	border: 1px solid red;
+	float: left;
+	/*position: absolute;
+	left: 131px;
+	bottom: 10px;*/
+}
+.missbuy .affiliate>div{
+	float: left;
+	margin-left: 10px;
+	line-height: 20px;
+	color: #666;
+}
+.missbuy .affiliate>div:hover>span{
+	display: block;
+	width: 150px;
+	height: 150px;
+	background: #fff;
+}
+.missbuy .affiliate>div>p{
+	
+}
+.missbuy .affiliate>div>span{
+	display: none;
+	position: absolute;
+	right: -140px;
+	bottom: -12px;
+	z-index: 2;	
+}
+.missbuy .affiliate>div>span>img{
+	width: 130px;
+	height: 120px;
+	display: block;
+	margin: 5px;
+}
+.missbuy .erweima{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.missbuy .erweima>span{
+	display: block;
+}
+.missbuy .one{
+	margin: 5px 0 5px 5px;
+	color: #ccc;
+}
+.missbuy>ul{
+	margin: 10px 0 10px 5px;
+}
+.missbuy>ul>li{
+	float: left;
+	color: #ccc;
+	margin: 0 36px;
+}
+.missbuy>ul>li:nth-of-type(1){
+	margin-left: 0;
+}
+.missbuy>ul>li>a{
+	color: #ccc;
+}
+
+
+
+
+
+
+.other{
+	width: 180px;
+	height: 600px;
+	float: right;
+	text-align: center;
+}
+.other .wire{
+	position: relative;
+	/*margin-left: 12px;*/
+}
+
+.other .wire>span{
+	background-color: #fff;
+	/*display: inline-block;*/
+	width: 72px;
+	height: 18px;
+	color: #666;
+	position: absolute;
+	left: 32%;
+	top: 1px;
+}
+.other .wire>s{
+	/*display: inline-block;*/
+	width: 140px;
+	height: 0;
+	border-top: 1px dotted #c9c9c9;
+	position: absolute;
+	left: 21px;
+	top: 10px;
+	/*text-decoration: none;*/
+}
+.other ul{
+	position: relative;
+	padding: 24px 23px 0 22px;
+}
+.other ul li{
+	width: 140px;
+	height: 174px;
+}
+.other ul li>a>img{
+	width: 140px;
+	height: 140px;
+}
+.other ul li div{
+	width: 140px;
+	height: 20px;
+	/*margin-left: 10px;*/
+}
+.other ul li div>a:nth-of-type(1){
+	float: left;
+}
+.other ul li div>a:nth-of-type(2){
+	float: right;
+}
+.tobo{
+	width: 100px;
+	margin-left: 40px;
+}
+.tobo>a:nth-of-type(1){
+	font-size: 20px;
+	float: left;
+}
+.tobo>a:nth-of-type(2){
+	font-size: 20px;
+	float: right;
+}
+
+
+
+
+
+
+
+
