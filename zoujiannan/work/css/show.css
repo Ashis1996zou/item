@@ -1,0 +1,12 @@
+ul li #show{
+	width: 234px;
+	height: 100px;
+}
+ul li #show p{
+	margin: 0 10px;
+	text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    background: #FFA500;
+}
