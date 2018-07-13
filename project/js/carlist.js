@@ -79,7 +79,50 @@ if(getCookie("init")){
 	for(var key in data){
 		for(var i in obj){
 			if(key == obj[i].id){
-				str+='<tr><td><img src='+obj[i].img+' class="smallPic"></td><td>'+obj[i].price+'</td><td><button class="reduce">-</button><input type="text" value='+data[key]+' class="num"><button class="add">+</button></td><td>'+(obj[i].price.slice(1)*data[key])+'</td><td class="del">删除</td></tr>'
+				str+=`<div class="package">
+										<dl>
+											<dd>
+												<label>
+													<input type="checkbox" checked/>
+												</label>
+											</dd>
+											<dt>
+												<a href="#">
+													<img src='+obj[i].gif+' />
+												</a>
+											</dt>
+											<dd>
+												<a href="#">
+													<div>PUMA彪马 2018新款男子基础系列短裤85198101</div>
+												</a>
+											</dd>
+											<dd>
+												<div>
+													<p>颜色：<em>黑</em></p>
+													<p>尺码：<em>s</em></p>
+												</div>
+											</dd>
+											<dd>
+												171
+												<div>
+													<span>限时抢</span>
+												</div>
+											</dd>
+											<dd>
+												<a href="#">-</a>
+												<input type="text" value="2" />
+												<a href="#">+</a>
+												<!--<span>限时抢</span>-->
+											</dd>
+											<dd>
+												<strong>'+obj[i].price+'</strong>
+											</dd>
+											<dd>
+												<a href="#">移入收藏夹</a><br/>
+												<a href="#">删除</a>
+											</dd>
+										</dl>
+									</div>`
 			}
 		}
 	}
