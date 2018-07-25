@@ -1,0 +1,17 @@
+[{
+	"id":"01",
+	"pic":"image/pic1.jpg",
+	"tit":"小米空气净化器",
+	"pri":"2099"
+},{
+	"id":"02",
+	"pic":"image/pic2.jpg",
+	"tit":"小米手机s6",
+	"pri":"2599"
+},{
+	"id":"03",
+	"pic":"image/pic3.jpg",
+	"tit":"小米超清电视",
+	"pri":"3099"
+}
+]

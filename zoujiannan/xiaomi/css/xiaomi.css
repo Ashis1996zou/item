@@ -11,6 +11,8 @@ ul li{
 	margin: 6px;
 	margin-left: 8px;
 	background: #fff;
+	position: relative;
+	overflow: hidden;
 }
 ul li>.pic{
 	width: 234px;
@@ -121,6 +123,29 @@ ul li:nth-of-type(8)>.more>.tit a img{
 	top: 0;
 	bottom: 0;
 	margin: auto;
+}
+ul li>p {
+	display:block;
+	width: 234px;
+	height: 60px;
+	text-align: center;
+	padding-top: 20px;
+	position:absolute;
+	left:0;
+	top:300px;
+	z-index:1;
+	background:orange;
+	font-size:12px;
+	color:#fff;
+	line-height:16px;
+	-webkit-transition: all 0.5s ease-in-out;
+}
+ul li:hover>p{
+	top:220px;
+}
+ul li:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,.1);
+	transform: translate3d(0,-2px,0);
 }
 
 

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/home.css"/>
+	</head>
+	<body>
+		<div id="box">
+			<table>
+				<tr>
+					<th>
+						<label>
+							<input type="checkbox" id="all" checked/>
+							<i>全选</i>										
+						</label>
+					</th>
+					<th>名称</th>
+					<th>单价</th>
+					<th>数量</th>
+					<th>小计</th>
+					<th>操作</th>
+				</tr>
+				<tr>
+					<td colspan="6" id="just">
+						<!--<div id="package">
+							<ul>
+								<li>
+									<label>
+										<input type="checkbox" checked/>
+									</label>
+									<a href="#">
+										<img src="image/pic1.jpg" />
+									</a>
+								</li>
+								<li>
+									<a href="#">小米空气净化器</a>
+								</li>
+								<li>171</li>
+								<li>
+									<a href="#">-</a>
+									<input type="text" value="2" />
+									<a href="#">+</a>
+								</li>
+								<li>
+									<strong>342</strong>
+								</li>
+								<li>
+									<a href="#">删除</a>
+								</li>
+							</ul>
+						</div>-->
+					</td>
+				</tr>
+			</table>
+		</div>
+    <div class='demo-bg'></div>
+	    
+    <div class='demo-txt'>
+    	
+        <button id="rem" onclick="remo()">确认</button>
+        <button id="btn" onclick="closeDialog()">取消</button>
+        
+    </div>
+	</body>
+</html>
+<script src="js/ajax.js"></script>
+<script>
+ajax("get","json/list.json",{},function(data) {
+	var data = JSON.parse(data);
+	
+	var ojust = document.getElementById("just");
+	console.log(ojust)
+	fn(1)
+	function fn(s){		
+		var str = "";
+		for(var i=0;i<data.length;i++){
+			str+=`<div id="package">
+							<ul>
+								<li>
+									<label>
+										<input type="checkbox" checked/>
+									</label>
+									<a href="#">
+										<img src=${data[i].pic}  />
+									</a>
+								</li>
+								<li>
+									<a href="#">${data[i].tit}</a>
+								</li>
+								<li>${data[i].pri}</li>
+								<li>
+									<a href="#">-</a>
+									<input type="text" value="1" />
+									<a href="#">+</a>
+								</li>
+								<li>
+									<strong>${data[i].pri}</strong>
+								</li>
+								<li>
+									<button class="button" >删除</button>
+								</li>
+							</ul>
+						</div>`;
+		}
+		ojust.innerHTML = str;
+	}
+})
+</script>
+
+<script src="js/cli.js"></script>
+
+
+
+
